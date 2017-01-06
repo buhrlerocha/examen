@@ -1,0 +1,25 @@
+@mixin cuadrado ($bi, $br, $bs, $ba, $be) {
+	background-color: $bi;
+	width: $br;
+	padding: $bs;
+	margin-bottom: $ba;
+	border-radius: $be;
+}
+
+@mixin fondo ($bi, $br, $bs, $ba) {
+	background-image: $bi;
+	width: $br;
+	height: $bs;
+	position: $ba;
+}
+
+
+@mixin boton ($bi, $br, $bs, $ba, $be) {
+	width: $bi;
+	background-color: $br;
+	border: 1px solid $bs;
+	border-radius: $ba;
+	color: $be;
+	padding: $bo;
+	font-size: $bl;
+}

@@ -1,0 +1,56 @@
+.logo{
+	width: 200px;
+}
+.fondo{
+	@include fondo(url(../img/background.jpg), 100%, 800px, absolute);
+}
+.origen{
+	margin-top: 100px;
+	position: relative;
+}
+.form-control{
+	width: 300px;
+}
+.cuadrado{
+	@include cuadrado($color-blanco, 335px, 15px, 10px, 5px);
+}
+
+.boton{
+	width: 335px;
+	background-color: $color-principal;
+	border: 1px solid $color-principal;
+	border-radius: 5px;
+	color: $color-blanco;
+	padding: 10px 0 10px 0;
+	font-size: 20px;
+}
+.motos{
+	margin-top: 350px;
+	position: relative;
+}
+.cuadrado2{
+	@include cuadrado($color-blanco, 335px, 15px, 10px, 5px);
+}
+.autos{
+	width: 30px;
+	padding-right: 10px;
+}
+.vehiculo{
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.icono{
+	color: $color-principal;
+	float: right;
+}
